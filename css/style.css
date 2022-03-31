@@ -4,3 +4,14 @@
     padding:0;
     box-sizing: border-box;
 }
+                    /* commons */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+}
+.left-nav, .right-nav{
+    background-color: white;
+    height: 50px;
+    max-width: 20%;
+}
