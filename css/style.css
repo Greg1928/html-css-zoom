@@ -9,9 +9,37 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #111111;
+    margin-bottom: 50px;
 }
+main{
+    height: calc(100vh - 150px);
+    margin-bottom: 20px;
+}
+footer{
+    height: 40px;
+    background-color: #111111;
+}
+
+/* header */
 .left-nav, .right-nav{
     background-color: white;
-    height: 50px;
+    height: 40px;
     max-width: 20%;
+}
+/* main */
+.main-container{
+    max-width: 90%;
+    margin: auto;
+    height: calc(100vh - 150px);;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+    height: calc(100% / 6 - 10px);
+    width: calc(100% / 6 - 10px);
+    background-color: blue;
+    border-radius: 5px;
+    margin: 5px;
 }
